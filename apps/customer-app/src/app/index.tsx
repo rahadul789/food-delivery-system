@@ -1,6 +1,5 @@
 import { Text, View } from "react-native";
-import Test from "../components/Test";
-import Sock from "../components/Sock";
+import TrackOrderScreen from "../screens/order/TrackOrderScreen";
 
 export default function Index() {
   return (
@@ -8,12 +7,11 @@ export default function Index() {
       style={{
         flex: 1,
         justifyContent: "center",
-        alignItems: "center",
+        // alignItems: "center",
       }}
     >
       <Text>Edit app/index.tsx to edit this screen11.</Text>
-      <Sock />
-      <Test />
+      <TrackOrderScreen />
     </View>
   );
 }
